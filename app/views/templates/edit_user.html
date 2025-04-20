@@ -1,0 +1,16 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<h2>Edit User</h2>
+<form method="POST" class="bg-white p-4 rounded shadow-sm">
+    <div class="mb-3">
+        <label>Username:</label>
+        <input type="text" name="username" value="{{ user.username }}" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Email:</label>
+        <input type="email" name="email" value="{{ user.email }}" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-success">Update</button>
+</form>
+{% endblock %}
