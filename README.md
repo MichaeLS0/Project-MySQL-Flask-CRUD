@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Flask MVC Basic Application
 
 This is a basic Flask application implementing the MVC (Model-View-Controller) pattern. Currently, it demonstrates the Create operation from CRUD (Create, Read, Update, Delete) operations.
@@ -103,4 +103,3 @@ Feel free to implement the remaining CRUD operations and submit pull requests. T
 =======
 # Project-MySQL-Flask-CRUD
 A Flask-based web application connected to a MySQL database. Demonstrates CRUD operations, database integration, and basic web forms.
->>>>>>> c7ab3166d223c4e1f0ef02ea1d3ced67985b1cc9
